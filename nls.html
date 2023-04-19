@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" type = "text/css" href = "s1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="show">
+        <header>
+            <nav class="hd">
+                <ul class="hd">
+                    <li>
+                        <a href="main.html">Books</a>
+                    </li>
+                    <li>
+                        <a href = "main.html#aboutus">About us</a>
+                    </li>
+                    <li>
+                        <a href = "nls.html">Novels</a>
+                    </li>
+                    <li>
+                        <a href = "tb.html">Textbooks</a>
+                    </li>
+                    <li>
+                        <a href = "tech.html">Technology</a>
+                    </li>
+                    <li>
+                        <a href = "ct.html">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="container">
+    <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+    <li class="item1 active"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <img src="nl2.jpg" alt="image1" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="nl4.jpg" alt="image2" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="nl3.jpg" alt="image3" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="nl4.jpg" alt="image4" width="100%" height="100%">
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button">
+    <span class="glyphicon glyphicon-chevron-left" ariahidden="true"></span>
+    <span class="sr-only">Prev</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+    <script>
+    $(document).ready(function(){
+    $("#myCarousel").carousel();
+    $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+    })
+    $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+    })
+    $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+    })
+    $(".item4").click(function(){
+    $("#myCarousel").carousel(2);
+    })
+    $(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+    })
+    $(".right").click(function(){
+    $("#myCarousel").carousel("next");
+    })
+    });
+    </script>
+    </div>
+    
+    <br>
+    <div class="list">
+            <ul>
+                <a href="https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X/ref=asc_df_178633089X/?tag=googleshopdes-21&linkCode=df0&hvadid=397081181672&hvpos=&hvnetw=g&hvrand=5635825590424582489&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062119&hvtargid=pla-364287304787&psc=1&ext_vrnc=hi">
+                <li><img src="novel1.jpeg" height="100" width="150"></li>
+                <li>IKIGAI
+                </li>
+                <li>Francesc Miralles
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Sherlock-Holmes-Complete-Novels-Stories/dp/0553212419/ref=sr_1_3?crid=174KKNPATX8V4&keywords=sherlock+holmes+vol+1&qid=1681490619&s=books&sprefix=sherlock+holmes+vol+1+%2Cstripbooks%2C219&sr=1-3">
+                <li><img src="novel2.jpeg" height="100" width="150"></li>
+                <li>SHERLOCK HOLMES
+                </li>
+                <li>Sir Arthur Conan Doyle
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Find-You-totally-thrilling-bestselling-ebook/dp/B09R9JL7ZW/ref=sr_1_1?crid=2O9XKQLYS3BBP&keywords=find+you+mary+burton&qid=1681490665&s=books&sprefix=find+you+mary+burtin%2Cstripbooks%2C272&sr=1-1">
+                <li><img src="novel3.jpeg" height="100" width="150"></li>
+                <li>FIND YOU
+                </li>
+                <li>Mary Burton
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+            </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Think-Like-Monk-Jay-Shetty/dp/0008386595/ref=sr_1_3?keywords=think+like+a+monk&qid=1681490698&s=books&sprefix=think+like+%2Cstripbooks%2C211&sr=1-3">
+                <li><img src="novel4.jpeg" height="100" width="150"></li>
+                <li>THINK LIKE A MONK
+                </li>
+                <li>Jay Shetty
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/MURDER-MYSTERY-Boxed-Set-Postmasters-ebook/dp/B07DY3G6RJ/ref=sr_1_4?crid=2JM6PGL6OOD61&keywords=murder+mystery+louis+tracy&qid=1681490735&s=books&sprefix=murder+mystery+louis+tracy%2Cstripbooks%2C214&sr=1-4">
+                <li><img src="novel5.jpeg" height="100" width="150"></li>
+                <li>MURDER MYSTERY
+                </li>
+                <li>Louis Tracy
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/God-Small-Things-Arundhati-Roy-ebook/dp/B06XY2SP5R/ref=sr_1_1?keywords=the+god+of+small+things&qid=1681490770&s=books&sprefix=the+god+%2Cstripbooks%2C233&sr=1-1">
+                <li><img src="novel5.webp" height="100" width="150"></li>
+                <li>THE GOD OF SMALL THINGS
+                </li>
+                <li>Arundhati Roy
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/400-Days-Chetan-Bhagat/dp/1542094089">
+                <li><img src="novel7.jpeg" height="100" width="150"></li>
+                <li>400 DAYS
+                </li>
+                <li>Chetan Bhagat
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Around-World-80-Days/dp/9386063360/ref=asc_df_9386063360/?tag=googleshopdes-21&linkCode=df0&hvadid=396986042346&hvpos=&hvnetw=g&hvrand=2458845381562345138&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062119&hvtargid=pla-1212517823935&psc=1&ext_vrnc=hi">
+                <li><img src="novel8.jpg" height="100" width="150"></li>
+                <li>AROUND THE WORLD IN 80 DAYS
+                </li>
+                <li>Jules Verne
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+    </div>
+    <footer>
+        <div class="footer1">
+        Copyright &copy; Online_Book_Store
+        </div>
+</footer>
+</body>
+</html>

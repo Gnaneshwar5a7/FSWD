@@ -1,0 +1,71 @@
+
+.list {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,2fr); /*fr : Fractional unit*/
+    padding : 2rem;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.list ul{
+    list-style: none;
+    text-align: center;
+}
+
+.list a{
+    color:#333;
+}
+
+.list ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.list ul:hover{
+    transform: translateY(-50px);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.checked{
+    color: #ff523b;
+}
+
+.list img{
+    border: black 2px solid;
+    height: 200px;
+}
+
+footer .footer1{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px; 
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+table tr td{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px black;
+}
+
+fieldset{
+    padding-top: 20px;
+    width: 500px;
+    text-align: center;
+    border-radius: 0.5%;
+    border-style: dashed black;
+    border-width: 5px;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textbooks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" type = "text/css" href = "s1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="show">
+        <header>
+            <nav class="hd">
+                <ul class="hd">
+                    <li>
+                        <a href="main.html">Books</a>
+                    </li>
+                    <li>
+                        <a href = "main.html#aboutus">About us</a>
+                    </li>
+                    <li>
+                        <a href = "nls.html">Novels</a>
+                    </li>
+                    <li>
+                        <a href = "tb.html">Textbooks</a>
+                    </li>
+                    <li>
+                        <a href = "tech.html">Technology</a>
+                    </li>
+                    <li>
+                        <a href = "ct.html">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <div class="container">
+    <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+    <li class="item1 active"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <img src="quo1.jpg" alt="image1" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="sli1.jpg" alt="image2" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="sli3.webp" alt="image3" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="sli2.jpg" alt="image4" width="100%" height="100%">
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button">
+    <span class="glyphicon glyphicon-chevron-left" ariahidden="true"></span>
+    <span class="sr-only">Prev</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+    <script>
+    $(document).ready(function(){
+    $("#myCarousel").carousel();
+    $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+    })
+    $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+    })
+    $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+    })
+    $(".item4").click(function(){
+    $("#myCarousel").carousel(2);
+    })
+    $(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+    })
+    $(".right").click(function(){
+    $("#myCarousel").carousel("next");
+    })
+    });
+    </script>
+    </div>
+    
+    <br>
+    <div class="list">
+            <ul>
+                <a href="https://www.amazon.in/R-D-Sharma-Mathematics-Class-10/dp/B079YBF5W3/ref=asc_df_B079YBF5W3/?tag=googleshopdes-21&linkCode=df0&hvadid=586405112600&hvpos=&hvnetw=g&hvrand=10656120808237528824&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062119&hvtargid=pla-1651385056963&psc=1">
+                <li><img src="tb1.jpg" height="100" width="150"></li>
+                <li>Mathematics 
+                </li>
+                <li>RD Sharma
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/S-Chands-Principle-Physics-XII-ebook/dp/B01H3DO750">
+                <li><img src="tb2.jpg" height="100" width="150"></li>
+                <li>Physics
+                </li>
+                <li>V.K Mehta & Rohit Mehta
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Science-Tenth-Class-Part-Chemistry-ebook/dp/B01G6ZZL4C/ref=sr_1_4?crid=31NESE6NVFU9F&keywords=s+chand+chemistry&qid=1681791669&s=digital-text&sprefix=s+chand+chemistry%2Cdigital-text%2C217&sr=1-4">
+                <li><img src="tb3.jpg" height="100" width="150"></li>
+                <li>Chemistry
+                </li>
+                <li> Lakhmir Singh & Manjit Kaur 
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+            </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Sanchayan-Part-Supplementary-Language-Textbook/dp/B08KFRX223/ref=sr_1_4?crid=7914DG6OHMHP&keywords=sanchayan+hindi+class+10+part+1&qid=1681791846&s=digital-text&sprefix=sanchayan+hindi+class+10+part+1%2Cdigital-text%2C187&sr=1-4">
+                <li><img src="tb4.jpg" height="100" width="150"></li>
+                <li>Sanchayan
+                </li>
+                <li>Mahadevi Verma
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Textbook-CBSE-Biology-Class-Revised-ebook/dp/B07FCDDF7J/ref=sr_1_4?crid=1TN8K95N8AJJZ&keywords=textbook+of+cbse+biology&qid=1681792048&s=digital-text&sprefix=textbook+of+cbse+biology%2Cdigital-text%2C311&sr=1-4">
+                <li><img src="tb5.jpg" height="100" width="150"></li>
+                <li>Biology
+                </li>
+                <li>Saritha Aggarwal
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://apcbooks.co.in/books/foundation-of-information-technology-class-x/">
+                <li><img src="tb6.jpg" height="100" width="150"></li>
+                <li>Information Technology
+                </li>
+                <li>Ranju Sood
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Democratic-Politics-Textbook-Social-Science/dp/8174507116/ref=sr_1_2?crid=2A6Z769H3Z0JW&keywords=civics+ncert+textbook&qid=1681792827&s=digital-text&sprefix=civics+ncert+textbook%2Cdigital-text%2C187&sr=1-2">
+                <li><img src="tb7.jpg" height="100" width="150"></li>
+                <li>Democratic Politics For Class - 10 
+                </li>
+                <li>NCERT 
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/NCERT-HISTORY-GEOGRAPHY-ECONOMICS-CIVICS/dp/B07VVHK7DZ/ref=asc_df_B07VVHK7DZ/?tag=googleshopdes-21&linkCode=df0&hvadid=397008292057&hvpos=&hvnetw=g&hvrand=2960370743640906538&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062119&hvtargid=pla-852847473320&psc=1&ext_vrnc=hi">
+                <li><img src="tb8.jpg" height="100" width="150"></li>
+                <li>World History
+                </li>
+                <li>NCERT
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+    </div>
+    <footer>
+        <div class="footer1">
+        Copyright &copy; Online_Book_Store
+        </div>
+</footer>
+</body>
+</html>

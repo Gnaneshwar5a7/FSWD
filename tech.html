@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" type = "text/css" href = "s1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="show">
+        <header>
+            <nav class="hd">
+                <ul class="hd">
+                    <li>
+                        <a href="main.html">Books</a>
+                    </li>
+                    <li>
+                        <a href = "main.html#aboutus">About us</a>
+                    </li>
+                    <li>
+                        <a href = "nls.html">Novels</a>
+                    </li>
+                    <li>
+                        <a href = "tb.html">Textbooks</a>
+                    </li>
+                    <li>
+                        <a href = "tech.html">Technology</a>
+                    </li>
+                    <li>
+                        <a href = "ct.html">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <div class="container">
+    <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+    <li class="item1 active"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <img src="tch1.jpg" alt="image1" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="tch2.webp" alt="image2" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="tch3.jpg" alt="image3" width="100%" height="100%">
+    </div>
+    <div class="item">
+    <img src="tch4.png" alt="image4" width="100%" height="100%">
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button">
+    <span class="glyphicon glyphicon-chevron-left" ariahidden="true"></span>
+    <span class="sr-only">Prev</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+    <script>
+    $(document).ready(function(){
+    $("#myCarousel").carousel();
+    $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+    })
+    $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+    })
+    $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+    })
+    $(".item4").click(function(){
+    $("#myCarousel").carousel(2);
+    })
+    $(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+    })
+    $(".right").click(function(){
+    $("#myCarousel").carousel("next");
+    })
+    });
+    </script>
+    </div>
+    
+    <br>
+    <div class="list">
+            <ul>
+                <a href="https://www.amazon.in/Programming-Java-Balagurusamy/dp/9353162343/ref=sr_1_1_sspa?keywords=java+programming+books&qid=1681793650&s=digital-text&sprefix=programming+with+java%2Cdigital-text%2C260&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                <li><img src="t1.jpg" height="100" width="150"></li>
+                <li>Programming with Java | 6th Edition
+                </li>
+                <li>E Balagurusamy 
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Full-Stack-Development-Spring-React/dp/1801816786/ref=sr_1_2_sspa?keywords=full+stack+web+development&qid=1681793784&s=digital-text&sprefix=full+stack%2Cdigital-text%2C193&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A15DBATYR506U3">
+                <li><img src="t2.jpg" height="100" width="150"></li>
+                <li>Full Stack Development with Spring Boot and React
+                </li>
+                <li>Juha Hinkula 
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Python-Programming-Reema-Thareja/dp/9354973760/ref=sr_1_2_sspa?crid=Z3GZ0826Y49U&keywords=python&qid=1681793917&s=digital-text&sprefix=python%2Cdigital-text%2C196&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                <li><img src="t3.jpg" height="100" width="150"></li>
+                <li>Python Programming 
+                </li>
+                <li>Reema Thareja
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+            </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Structures-Algorithms-Interview-Questions-Likely/dp/1946383066/ref=sr_1_2_sspa?crid=152FDZIX5H1DA&keywords=data+structures+and+algorithms&qid=1681794029&s=digital-text&sprefix=datastructu%2Cdigital-text%2C195&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                <li><img src="t4.jpg" height="100" width="150"></li>
+                <li>Data Structures & Algorithms
+                </li>
+                <li>Vibrant Publishers 
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/IoT-Beginners-Architecture-Principles-Projects/dp/9355510063/ref=sr_1_1_sspa?keywords=iot+books&qid=1681794142&s=digital-text&sprefix=iot%2Cdigital-text%2C247&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                <li><img src="t5.jpg" height="100" width="150"></li>
+                <li>IoT for Beginners
+                </li>
+                <li> Vibha Soni
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Let-Us-Authentic-programming-language/dp/9391392997/ref=asc_df_9391392997/?tag=googleshopmob-21&linkCode=df0&hvadid=544367403773&hvpos=&hvnetw=g&hvrand=9803350402398096894&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9062119&hvtargid=pla-1544874562052&psc=1">
+                <li><img src="t6.jpg" height="100" width="150"></li>
+                <li>Let Us C : Authentic guide to C programming language
+                </li>
+                <li>Yashavant Kanetkar
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/BLOCK-CHAIN-SIMPLIFIED-DISRUPTIVE-TECHNOLOGY-ebook/dp/B07QTWRZRY/ref=sr_1_2?crid=SQJBVNW4AULM&keywords=block+chain+technology&qid=1681794595&s=digital-text&sprefix=block+chain%2Cdigital-text%2C209&sr=1-2">
+                <li><img src="t7.jpg" height="100" width="150"></li>
+                <li>BLOCK CHAIN SIMPLIFIED
+                </li>
+                <li>Aby Alexander
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.in/Machine-Learning-Python-Manaranjan-Pradhan/dp/8126579900/ref=sr_1_1_sspa?crid=1N08I7M9SZ26H&keywords=machine+learning+with+python&qid=1681794691&s=digital-text&sprefix=machine+%2Cdigital-text%2C349&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                <li><img src="t8.jpg" height="100" width="150"></li>
+                <li>Machine Learning Using Python
+                </li>
+                <li>Manaranjan Pradhan 
+                </li>
+                <li>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                </a>
+            </ul>
+    </div>
+    <footer>
+        <div class="footer1">
+        Copyright &copy; Online_Book_Store
+        </div>
+</footer>
+</body>
+</html>
